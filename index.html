@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>orignal Birthday Wish</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Replace your existing Font Awesome kit with this -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-..."
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <button id="start-btn">Let's Start 🎉</button>
+    <div id="countdown-wrapper" class="hidden">
+      <h1 id="countdown">3</h1>
+    </div>
+    <div id="main-content" class="hidden">
+      <!-- HBD Message -->
+      <div class="birthday-message">
+        <span class="letter">H</span>
+        <span class="letter">a</span>
+        <span class="letter">p</span>
+        <span class="letter">p</span>
+        <span class="letter">y</span>
+        <span class="letter"> </span>
+        <span class="letter">B</span>
+        <span class="letter">i</span>
+        <span class="letter">r</span>
+        <span class="letter">t</span>
+        <span class="letter">h</span>
+        <span class="letter">d</span>
+        <span class="letter">a</span>
+        <span class="letter">y</span>
+        <span class="letter"> </span>
+        <span class="letter">N</span>
+        <span class="letter">a</span>
+        <span class="letter">m</span>
+        <span class="letter">e</span>
+        <span class="letter">h</span>
+        <span class="letter">e</span>
+        <span class="letter">r</span>
+        <span class="letter">e</span>
+        <span class="letter">!</span>
+      </div>
+
+      <!-- Cake -->
+      <div class="cake">
+        <div class="candles">
+          <div class="flame"></div>
+          <div class="flame"></div>
+          <div class="flame"></div>
+          <div class="flame"></div>
+          <div class="flame"></div>
+        </div>
+        <div class="cake-step step-1"></div>
+        <div class="cake-step step-2"></div>
+        <div class="cake-step step-3"></div>
+      </div>
+
+      <button id="next-btn" class="next-button">Next Surprise 🎁</button>
+    </div>
+    <div class="card-wrapper hidden" id="card-wrapper">
+      <div class="birthday-card" id="birthday-card">
+        <!-- Outer Card Cover -->
+        <div class="card-outer">
+          <img src="images/teddy.jpg" alt="Teddy" />
+          <h2>🎉 To My Sweetest (Name) 🎉</h2>
+          <p class="tagline">A Surprise Full of Love Awaits You Inside 💖</p>
+        </div>
+
+        <!-- Inner Card (Front and Back) -->
+        <div class="card-inner">
+          <div class="left-side">
+            <img src="images/img1.jpg" alt="Shazmera" />
+          </div>
+          <div class="right-side">
+            <h2>Happy Birthday Name! 🎉</h2>
+            <p>
+              You're not just a cousin, you're a blessing!<br />
+              May your day be filled with love, laughter, and endless joy!<br />
+              🎂💖✨
+            </p>
+          </div>
+        </div>
+      </div>
+      <button id="next-btn1" class="next-button-2">Next 🎁</button>
+    </div>
+
+    <!-- Gift Box -->
+    <div class="giftbox hidden" id="giftboxcontainer">
+      <div class="box" id="giftBox">
+        <img src="images/lid.png" alt="lid" class="lid" />
+        <img src="images/box.png" alt="box-base" class="box-base" />
+      </div>
+    </div>
+
+    <!-- image gallery -->
+
+    <div class="imagegallery hidden" id="imagegallery">
+      <div class="gallery">
+        <!-- Birthday girl photos - 10 positions -->
+        <div class="photo-box">
+          <img
+            src="images/img6.jpeg"
+            alt="Birthday girl smiling with party hat and balloon in hand"
+          />
+        </div>
+        <div class="photo-box">
+          <img
+            src="images/img7.jpeg"
+            alt="Birthday girl blowing out candles on colorful cake"
+          />
+        </div>
+        <div class="photo-box">
+          <img
+            src="images/img9.jpeg"
+            alt="Birthday girl surrounded by friends at party"
+          />
+        </div>
+        <div class="photo-box">
+          <img
+            src="images/img2.jpeg"
+            alt="Close-up of birthday girl holding gift wrapped in shiny paper"
+          />
+        </div>
+        <div class="photo-box">
+          <img
+            src="images/img10.jpeg"
+            alt="Birthday girl laughing with confetti in the air"
+          />
+        </div>
+        <div class="photo-box">
+          <img
+            src="images/img12.jpeg"
+            alt="Birthday girl dancing at the party with colorful lights"
+          />
+        </div>
+        <div class="photo-box">
+          <img
+            src="images/img11.jpeg"
+            alt="Birthday girl making a wish with eyes closed before blowing candles"
+          />
+        </div>
+        <div class="photo-box">
+          <img
+            src="images/img5.jpeg"
+            alt="Birthday girl opening presents with excited expression"
+          />
+        </div>
+        <div class="photo-box">
+          <img
+            src="images/img4.jpeg"
+            alt="Birthday girl posing with decorated birthday cake"
+          />
+        </div>
+        <div class="photo-box">
+          <img
+            src="images/img3.jpeg"
+            alt="Birthday girl surrounded by floating balloons in party decorations"
+          />
+        </div>
+      </div>
+      <div class="lights">
+        <div class="light-string diagonal-1"></div>
+        <div class="light-string diagonal-2"></div>
+
+        <!-- Light bulbs positioned along the strings -->
+        <div class="light-bulb" style="top: 15%; left: 10%"></div>
+        <div class="light-bulb" style="top: 20%; left: 30%"></div>
+        <div class="light-bulb" style="top: 25%; left: 50%"></div>
+        <div class="light-bulb" style="top: 20%; left: 70%"></div>
+        <div class="light-bulb" style="top: 15%; left: 90%"></div>
+
+        <div class="light-bulb" style="top: 45%; left: 5%"></div>
+        <div class="light-bulb" style="top: 40%; left: 25%"></div>
+        <div class="light-bulb" style="top: 45%; left: 45%"></div>
+        <div class="light-bulb" style="top: 40%; left: 65%"></div>
+        <div class="light-bulb" style="top: 45%; left: 85%"></div>
+
+        <div class="light-bulb" style="top: 75%; left: 10%"></div>
+        <div class="light-bulb" style="top: 70%; left: 30%"></div>
+        <div class="light-bulb" style="top: 75%; left: 50%"></div>
+        <div class="light-bulb" style="top: 70%; left: 70%"></div>
+        <div class="light-bulb" style="top: 75%; left: 90%"></div>
+      </div>
+    </div>
+
+    <div id="balloon-wrapper"></div>
+    <div id="confetti-wrapper"></div>
+    <div id="sparkle-wrapper"></div>
+    <audio id="explosion-sound" src="audio/explosion.mp3"></audio>
+    <audio
+      id="birthday-audio"
+      src="audio/birthday-song.mp3"
+      preload="auto"
+      loop
+    ></audio>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
